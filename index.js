@@ -1,6 +1,6 @@
 // API EndPoint
-var baseURL =  "http://api.openweathermap.org/data/2.5/weather?q=";
-var apiKey = "&APPID=a7bf07d66d700e8c44ea5ade03de8db2";
+var baseURL =  "//api.openweathermap.org/data/2.5/weather?q=";
+var apiKey = "&APPID=" + config.apiKey;
 
 
 // Get Element

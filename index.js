@@ -1,5 +1,5 @@
 // API EndPoint
-var baseURL =  config.crossOrigin + "https://api.openweathermap.org/data/2.5/weather?q=";
+var baseURL =  "http://api.openweathermap.org/data/2.5/weather?q=";
 var apiKey = "&APPID=" + config.apiKey;
 
 

@@ -1,0 +1,42 @@
+{
+    "coord": {
+        "lon": 112.5,
+        "lat": 2.5
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 299.15,
+        "pressure": 1008,
+        "humidity": 88,
+        "temp_min": 299.15,
+        "temp_max": 299.15
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 1.16,
+        "deg": 3.0018
+    },
+    "clouds": {
+        "all": 75
+    },
+    "dt": 1492333200,
+    "sys": {
+        "type": 1,
+        "id": 8112,
+        "message": 0.0056,
+        "country": "MY",
+        "sunrise": 1492295075,
+        "sunset": 1492338893
+    },
+    "id": 1733045,
+    "name": "Malaysia",
+    "cod": 200
+}

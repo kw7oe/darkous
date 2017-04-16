@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500|Raleway:400,600');
+
+
+h1, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {  
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+.box {    
+  border-radius: 6px;
+  position: absolute;
+  min-width: 80%;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.header {
+  text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+#output {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+  border: 1px solid #CCCCCC;
+}
+
+#output legend {
+  font-family: 'Raleway', sans-serif;
+  padding: 4px;
+  width: auto;
+  font-weight: 600;
+}
+
+#temperature {
+  font-size: 36px;
+  margin: 0;
+}
+
+#weather {
+  display: inline-block;
+}
+
+
+.hidden {
+  display: none;
+}
+
+@media(min-width: 480px) {
+  body {
+    background-color: #F2F2F2;
+  }
+
+  .box {
+    min-width: auto; 
+    padding: 36px 48px;
+    background-color: white;
+    box-shadow: 0px 5px 8px rgba(0,0,0,0.4);
+  }
+
+}
+
+
+

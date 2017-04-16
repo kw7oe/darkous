@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <title>Home</title>
+    <!-- Insert Bootstrap Stylesheet Here  -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <div class="box">
+      <!-- Heading -->
+      <div class="header">
+        <h1>Darkous</h1>
+        <p>The only weather application you need.</p>
+      </div>
+      
+      <!-- Output -->
+      <fieldset id="output" class="hidden">  
+
+        <legend id="location-output"></legend>  
+        <p id="temperature"></p>
+
+        <img id="weather-icon">
+        <h3 id="weather"></h3>            
+        <p id="weather-description"></p>
+      </fieldset>
+
+
+      <!-- Input -->
+      <div class="input-group">
+        <input type="text" name="Location" id="location-input" class ="form-control" placeholder="Enter location">
+        <span class="input-group-btn">
+          <button class="btn btn-primary" type="button" id="button">Go</button>
+        </span>
+      </div>
+
+    </div>
+
+    <!-- Script -->
+    <!-- Axios  -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

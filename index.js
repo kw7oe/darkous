@@ -1,7 +1,5 @@
 // API EndPoint
-var baseURL =  "http://api.openweathermap.org/data/2.5/weather?q=";
-var apiKey = "&APPID=" + config.apiKey;
-
+var baseURL =  "http://testing-api-1.herokuapp.com/weather/"
 
 // Get Element
 var locationField = document.getElementById("location-input");
@@ -17,7 +15,7 @@ var weatherIcon = document.getElementById("weather-icon");
 // Add Evenet Listener to Button
 button.addEventListener("click", function(event) {
   var location = locationField.value;
-  var url = baseURL + location + apiKey ;
+  var url = baseURL + location;
 
   getRequest(url, function(response) {
     var data = response.data;

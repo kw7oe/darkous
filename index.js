@@ -1,5 +1,5 @@
 // API EndPoint
-var baseURL =  "http://testing-api-1.herokuapp.com/weather/"
+var baseURL =  "https://testing-api-1.herokuapp.com/weather/"
 
 // Get Element
 var locationField = document.getElementById("location-input");
